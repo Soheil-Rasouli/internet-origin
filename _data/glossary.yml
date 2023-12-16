@@ -146,3 +146,181 @@
 - term: قابلیت اطمینان
   definition: reliability
 
+#فصل دوم
+
+- term: ماروین مینسکی
+  definition: Marvin Minsky
+
+- term: سیمور پیپرت
+  definition: Seymour Papert
+
+- term: لری رابرتز
+  definition: Larry Roberts
+
+- term: هاوارد فرانک
+  definition: Howard Frank
+
+- term: سِسوستریس
+  definition: Sesostris
+
+- term: وسترن یونیون تلگراف
+  definition: Western Union Telegraph
+
+- term: پاول باران
+  definition: Paul Baran
+
+- term: دونالد دیویس
+  definition: Donald Davies
+
+- term: سوئیچینگ بسته
+  definition: Packet-switching
+
+- term: جری استرین
+  definition: Jerry Estrin
+
+- term: وارن مک کالوچ
+  definition: Warren McCulloch
+
+- term: شبکه‌های متمرکز
+  definition: Centralized Network
+
+- term: شبکه غیرمتمرکز
+  definition: Decentralized Network
+
+- term: شبکه توزیع شده
+  definition: Distributed Network
+
+- term: سطح افزونگی
+  definition: Redundancy level
+
+- term: بلوک‌های پیام
+  definition: message blocks
+
+- term: تکنیک ارسال پیام به صورت بسته
+  definition: packet messaging technique
+
+- term: طغیان کننده
+  definition: bursty
+
+- term: سوئیچینگ-مدار
+  definition: circuit-switched
+
+- term: جریان داده
+  definition: Data stream
+
+- term: مسیریابی سیب زمینی داغ
+  definition: hot potato routing
+
+- term: سیستم ذخیره و ارسال
+  definition: store-and-forward system
+
+- term: تطبیقی
+  definition: adaptive
+
+- term: دینامیک
+  definition: dynamic
+
+- term: نقشه‌های خطوط بلند
+  definition: Long Lines maps
+
+- term: DCA
+  definition: Defense Communications Agency
+
+- term: دونالد واتس دیویس
+  definition: Donald Watts Davies
+
+- term: NPL
+  definition: British National Physical Laboratory
+
+- term: بسته
+  definition: packet
+
+- term: پورتسموث
+  definition: Portsmouth
+
+- term: آلن تورینگ
+  definition: Alan Turing
+
+- term: رویه‌های عملیاتی ماشین
+  definition: machine-operating procedures
+
+- term: چرخه کاری
+  definition: turnaround time
+
+- term: تغییر بلوک پیام تطبیقی توزیع شده
+  definition: distributed adaptive message block switching
+
+- term: هومستد
+  definition: Homestead
+
+- term: تام ماریل
+  definition: Tom Marill
+
+- term: سرویس چهار سیمه تمام دوبلکس وسترن یونیون ویژه
+  definition: special Western Union four-wire full-duplex service
+
+- term: شماره گیر خودکار
+  definition: automatic dialer
+
+- term: پروتکل
+  definition: protocol
+
+- term: لئونارد کلاین راک
+  definition: Leonard Kleinrock
+
+- term: مرکز رسمی اندازه‌گیری شبکه
+  definition: official Network Measurement Center
+
+- term: استراتژی شمارش
+  definition: استفاده از این استراتژی در بیشتر کازینو‌ها ممنوع است
+
+- term: رولت
+  definition: نوعی بازی در کازینوها
+
+- term: میزبان
+  definition: Host
+
+- term: دیوید ثورو
+  definition: Henry David Thoreau
+
+- term: داگلاس انگلبارت
+  definition: Douglas Engelbart
+
+- term: SRI
+  definition: Stanford Research Institute
+
+- term: جان پستل
+  definition: Jon Postel
+
+- term: زیرشبکه
+  definition: subnetwork
+
+- term: فرانک هارت
+  definition: Frank Heart
+
+- term: پردازنده‌های پیام رابط
+  definition: interface message processors
+
+- term: گاتلینبورگ
+  definition: Gatlinburg
+
+- term: راجر اسکنتلبری
+  definition: Roger Scantlebury
+
+- term: دیو ایوانز
+  definition: Dave Evans
+
+- term: NLS
+  definition: oN-Line System
+
+- term: NIC
+  definition: Network Information Center
+
+- term: منلو پارک
+  definition: Menlo Park
+
+- term: CDC
+  definition: Control Data Corporation
+
+- term: ریتون
+  definition: Raytheon
