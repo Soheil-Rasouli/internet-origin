@@ -583,7 +583,7 @@
   
 - term: در
   definition: at
-  
+
 - term: پاسخی
   definition: Reply
   
@@ -652,3 +652,152 @@
   
 - term: کوین مک‌کنزی
   definition: Kevin MacKenzie
+
+#فصل هشتم
+
+- term: دارپا
+  definition: DARPA—the Defense Advanced Research Projects Agency
+
+- term: نورم آبرامسون
+  definition: Norm Abramson
+  
+- term: الوها
+  definition: ALOHA
+  
+- term: ستنت
+  definition: SATNET
+  
+- term: INWG
+  definition: International Network Working Group
+
+- term: لوئیس پوزین
+  definition: Louis Pouzin
+  
+- term: شبکه پیوسته
+  definition: Concatenated Network
+  
+- term: گیت‌وی
+  definition: Gateway(درگاه)
+  
+- term: دیتاگرام‌ها
+  definition: datagrams
+  
+- term: TCP
+  definition: transmission-control protocol
+
+- term: کریگ فیلدز
+  definition:  Craig Fields
+  
+- term: یوگن دالال
+  definition: Yogen Dalal
+  
+- term: ISI
+  definition: Information Sciences Institute
+  
+- term: IP
+  definition: Internet Protocol
+
+- term: PUP
+  definition: PARC Universal Packet
+
+- term: محلی
+  definition: local
+  
+- term: باتلر لمپسون
+  definition: Butler Lampson
+  
+- term: دیوید بوگز 
+  definition: David Boggs
+
+- term: چاک تاکر
+  definition: Chuck Thacker
+  
+- term: اترنت
+  definition: Ethernet
+  
+- term: NSF
+  definition: National Science Foundation
+  
+- term: سامیزدات‌های
+  definition: نشریه‌های زیر زمینی
+
+- term: لری لندوبر
+  definition: Larry Landweber
+
+- term: کنت کورتیس
+  definition: Kent Curtis
+  
+- term: پیتر دنینگ
+  definition: Peter Denning
+  
+- term: تونی هرن
+  definition: Tony Hearn
+  
+- term: UCAR
+  definition: University Corporation for Atmospheric Research
+
+- term: SPAN
+  definition: Space Physics Analysis Network
+  
+- term: NYSERNET
+  definition: New York State Educational Research Network
+  
+- term: CERFnet
+  definition: California Educational Research Network
+  
+- term: ISO
+  definition: International Organization for Standardization
+
+- term: OSI
+  definition: open-systems interconnection
+
+- term: دن لینچ
+  definition: Dan Lynch
+  
+- term: بیل جوی
+  definition: Bill Joy
+  
+- term: SUN
+  definition: Stanford University Network
+  
+- term: LAN
+  definition: local area network
+  
+- term: SMTP
+  definition: simple mail transfer protocol
+
+- term: کریگ پارتریج
+  definition: Craig Partridge
+  
+- term: DNS
+  definition: domain name system
+  
+- term: پاول موکاپتریس
+  definition: Paul Mockapetris
+  
+- term: مارک پولن
+  definition: Mark Pullen
+
+- term: تیم برنرز لی
+  definition: Tim Berners-Lee
+
+- term: کارگروه مهندسی اینترنت
+  definition: Internet Engineering Task Force
+  
+- term: جورج کنرادز
+  definition: George Conrades
+  
+- term: استیو لوی
+  definition: Steve Levy
+  
+- term: ال گور
+  definition: Al Gore
+    
+- term: اد مارکی
+  definition: Ed Markey
+  
+- term: مارک اندرسن
+  definition: Marc Andreessen
+  
+- term: متخصصان کامپیوتر برای مسئولیت اجتماعی
+  definition: Computer Professionals for Social Responsibility
