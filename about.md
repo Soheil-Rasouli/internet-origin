@@ -4,26 +4,23 @@ title: حمایت
 ---
 
 <p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+در کنار لذت بخشی این کار، زمان و انرژی زیادی را هم می‌طلبد و حمایت شما میتونه باعث دلگرمی و انگیزه بیشتر بشه. و من رو در این مسیر خوشحالتر کنه :)
 </p>
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+# کارت به کارت
 
-There are currently two themes built on Poole:
+معقول ترین شیوه، کارت به کارت هست که می‌تونید از شماره کارت یا شبای زیر به نام سهیل میرزارسولی بانک ملی استفاده کنید:
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+6037-9982-5458-1456
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+برای کپی پیست 6037998254581456
 
-## Setup
+# بیت کوین
 
-Some fun facts about the setup of this project include:
+هیجان انگیزترین روش حمایت هم بیت کوینه که می‌تونید از آدرس زیر استفاده کنید =)
 
-* Built for [Jekyll](https://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Atom](https://atom.io)
+![](donate.png)
+bc1qx9l36aghpjez9qfevhnrlvt7sntc2g0t8dfv43
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+---
+**و البته که** پول تنها راه حمایت نیست و با معرفی و تبلیغ کتاب یا ارسال ایمیل‌های خوشحال کننده به [soheil.star164+book@gmail.com](mailto:soheil.star164+book@gmail.com) بسیار می‌توانید به ادامه این مسیر کمک کنید.
