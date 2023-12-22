@@ -1,0 +1,79 @@
+<!-- special-section.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/xp.css">
+  <title>Special Section</title>
+</head>
+
+<body>
+
+
+  <div class="custom-section">
+
+
+
+    <div class="window" style="width: 400px">
+      <div class="title-bar">
+        <div class="title-bar-text">
+          Dial-Up
+        </div>
+
+        <div class="title-bar-controls">
+          <button aria-label="Minimize"></button>
+          <button aria-label="Maximize"></button>
+          <button aria-label="Close"></button>
+        </div>
+      </div>
+      <div class="window-body">
+        <img style="width: 100%" src="/chapters/d.jpg" />
+        <div class="field-row">
+          <label for="text21">User name</label>
+          <input id="text21" type="text" />
+        </div>
+        <div class="field-row">
+          <label for="text21">Password</label>
+          <input id="text21" type="text" />
+        </div>
+        <fieldset>
+          <input type="checkbox" id="example1">
+          <label for="example1">Save this user name and password for the following users:</label>
+          <div class="field-row">
+            <input id="radio5" type="radio" name="first-example">
+            <label for="radio5">Me only</label>
+          </div>
+          <div class="field-row">
+            <input id="radio6" type="radio" name="first-example">
+            <label for="radio6">Anyone who uses this computer</label>
+          </div>
+
+        </fieldset>
+        <div class="field-row-stacked" style="width: 200px">
+          <label for="text22">Dial</label>
+          <input id="text22" type="text" />
+        </div>
+        <section class="field-row" style="justify-content: flex-end">
+          <button id="dial-button">Dial</button>
+          <button>Cancel</button>
+          <button>Properties</button>
+          <button>Help</button>
+
+        </section>
+      </div>
+    </div>
+    <img id="loading-gif" src="/chapters/dial-progress.gif" style="display: none;">
+
+
+
+
+  </div>
+  <script src="public/js/dial-up-script.js"></script>
+  <script src="public/js/script.js"></script>
+</body>
+
+</html>
