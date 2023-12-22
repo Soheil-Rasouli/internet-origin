@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure Game</title>
+</head>
+<body>
+    <button id="showAdventureButton">Play Adventure Game</button>
+    <div id="adventureContainer" style="display: none; margin: 0 auto;">
+        <!-- The iframe will be dynamically added here -->
+    </div>
+
+    <script>
+        document.getElementById('showAdventureButton').addEventListener('click', function () {
+            showAdventureGame();
+        });
+
+        function showAdventureGame() {
+            var adventureContainer = document.getElementById('adventureContainer');
+
+            // Check if the iframe is already created
+            if (!adventureContainer.querySelector('iframe')) {
+                // Create the iframe element
+                var iframe = document.createElement('iframe');
+                iframe.src = 'https://grack.com/demos/adventure/';
+                iframe.allow = 'fullscreen';
+                iframe.width = '100%';
+                iframe.height = '600px';
+
+                // Append the iframe to the container
+                adventureContainer.appendChild(iframe);
+            }
+
+            // Show the container
+            adventureContainer.style.display = 'block';
+        }
+    </script>
+</body>
+</html>
