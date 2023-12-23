@@ -19,7 +19,7 @@
 class SpecialSection extends HTMLElement {
   constructor() {
       super();
-      fetch('/chapters/dial.html')
+      fetch('chapters/dial.html')
           .then(response => response.text())
           .then(text => {
               const shadowRoot = this.attachShadow({mode: 'open'});
