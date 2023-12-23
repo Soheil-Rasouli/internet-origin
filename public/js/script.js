@@ -39,13 +39,13 @@ class SpecialSection extends HTMLElement {
 
               function playDialUpSound() {
                   // You can use the HTML5 Audio API to play the sound
-                  let audio = new Audio('https://github.com/Soheil-Rasouli/internet-origin/chapters/dial-music.mp3'); // Replace with the correct path to your sound file
+                  let audio = new Audio('https://raw.githubusercontent.com/Soheil-Rasouli/internet-origin/main/chapters/dial-music.mp3'); // Replace with the correct path to your sound file
                   audio.play();
 
                   // Add an event listener to navigate when the sound finishes
                   audio.addEventListener('ended', function() {
                       // Navigate to the first chapter or perform any other action
-                      window.location.href = 'https://github.com/Soheil-Rasouli/internet-origin/chapters/مقدمه';
+                      window.location.href = "https://github.com/Soheil-Rasouli/internet-origin/gh-pages/chapters/مقدمه";
                   });
               }
           });
