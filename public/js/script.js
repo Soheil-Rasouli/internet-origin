@@ -45,7 +45,7 @@ class SpecialSection extends HTMLElement {
                   // Add an event listener to navigate when the sound finishes
                   audio.addEventListener('ended', function() {
                       // Navigate to the first chapter or perform any other action
-                      window.location.href = "https://github.com/Soheil-Rasouli/internet-origin/gh-pages/chapters/مقدمه";
+                      window.location.href = "chapters/مقدمه";
                   });
               }
           });
