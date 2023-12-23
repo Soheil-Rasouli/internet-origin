@@ -19,7 +19,7 @@
 class SpecialSection extends HTMLElement {
   constructor() {
       super();
-      fetch('/chapters/dial.html')
+      fetch('chapters/dial.html')
           .then(response => response.text())
           .then(text => {
               const shadowRoot = this.attachShadow({mode: 'open'});
@@ -45,7 +45,7 @@ class SpecialSection extends HTMLElement {
                   // Add an event listener to navigate when the sound finishes
                   audio.addEventListener('ended', function() {
                       // Navigate to the first chapter or perform any other action
-                      window.location.href = "https://github.com/Soheil-Rasouli/internet-origin/gh-pages/chapters/مقدمه";
+                      window.location.href = "chapters/مقدمه";
                   });
               }
           });
