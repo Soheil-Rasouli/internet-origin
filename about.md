@@ -19,7 +19,7 @@ title: حمایت
 
 هیجان انگیزترین روش حمایت هم بیت کوینه که می‌تونید از آدرس زیر استفاده کنید =)
 
-![](donate.png)
+![]({{ 'donate.png' | absolute_url }})
 bc1qx9l36aghpjez9qfevhnrlvt7sntc2g0t8dfv43
 
 ---
