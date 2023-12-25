@@ -68,12 +68,40 @@
     </div>
     <img id="loading-gif" src="https://raw.githubusercontent.com/Soheil-Rasouli/internet-origin/main/chapters/dial-progress.gif" style="display: none;">
 
-
-
-
   </div>
-  <script src="https://raw.githubusercontent.com/Soheil-Rasouli/internet-origin/main/public/js/dial-up-script.js"></script>
-  <script src="https://raw.githubusercontent.com/Soheil-Rasouli/internet-origin/main/public/js/script.js"></script>
+  
+
+<script>
+    const dialButton = document.getElementById('dial-button');
+    const windowElement = document.querySelector('.window');
+    const loadingGif = document.getElementById('loading-gif');
+
+    dialButton.addEventListener('click', function () {
+      // Hide the dial-up form
+      windowElement.style.display = 'none';
+
+      // Show the GIF
+      loadingGif.style.display = 'block';
+
+      // Play the dial-up sound
+      playDialUpSound();
+    });
+
+    function playDialUpSound() {
+      // You can use the HTML5 Audio API to play the sound
+      let audio = new Audio('https://raw.githubusercontent.com/Soheil-Rasouli/internet-origin/main/chapters/dial-music.mp3');
+      audio.play();
+
+      // Add an event listener to navigate when the sound finishes
+      audio.addEventListener('ended', function () {
+        // Navigate to the first chapter or perform any other action
+        window.location.href = "https://soheil-rasouli.github.io/internet-origin/chapters/%D9%85%D9%82%D8%AF%D9%85%D9%87/";
+      });
+    }
+  </script>
+
+
+
 </body>
 
 </html>
