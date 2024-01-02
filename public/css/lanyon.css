@@ -35,10 +35,7 @@
  */
 
 /* Prevent scroll on narrow devices */
-@font-face {
-  font-family: 'Customfont';
-  src: url('/fonts/Droid Arabic Naskh Regular.ttf') format('ttf');
-}
+
 
 
 html,
@@ -47,11 +44,11 @@ body {
 }
 
 html {
-  font-family: "Customfont","Times New Roman", serif;
+  font-family: 'Droid Arabic Naskh',"Times New Roman", serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Customfont","Times New Roman";
+  font-family: 'Droid Arabic Naskh',"Times New Roman";
   font-weight: 400;
   color: #313131;
   letter-spacing: -.025rem;
@@ -154,7 +151,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 14rem;
   visibility: hidden;
   overflow-y: auto;
-  font-family: "Customfont", "Times New Roman";
+  font-family: 'Droid Arabic Naskh', "Times New Roman";
   font-size: .875rem; /* 15px */
   color: rgba(255,255,255,.6);
   background-color: #202020;
@@ -163,7 +160,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (min-width: 30em) {
   .sidebar {
-    font-size: .75rem; /* 14px */
+    font-size: .65rem; 
   }
 }
 
@@ -311,6 +308,9 @@ a.sidebar-nav-item:focus {
 .page,
 .post {
   margin-bottom: 4em;
+  font-size: 0.9rem;
+  line-height: normal;
+
 }
 
 /* Blog post or page title */
@@ -369,7 +369,7 @@ a.sidebar-nav-item:focus {
   overflow: hidden; /* clearfix */
   margin-left: -1rem;
   margin-right: -1rem;
-  font-family: "Customfont", "Times New Roman";
+  font-family: 'Droid Arabic Naskh', "Times New Roman";
   color: #ccc;
   text-align: center;
 }
