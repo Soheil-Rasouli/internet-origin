@@ -3,7 +3,7 @@ title:               جایی که جادوگران تا دیروقت بیدار
 tagline:             'منشا اینترنت'
 description:         '&#34;	قوانین ممکن است وضع شوند، اما الزاما پیروز نمی‌شوند&#34;	'
 url:                 https://soheil-rasouli.github.io/internet-origin/
-baseurl:             ''
+baseurl:             '/internet-origin'
 paginate:            5
 permalink:           pretty
 
