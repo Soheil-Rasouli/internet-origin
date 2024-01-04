@@ -2,8 +2,70 @@
 layout: default
 ---
 
-<div class="page">
-  <h1 class="page-title">{{ page.title }}</h1>
-  {{ content }}
-</div>
+<style>
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px 16px;
+  border-radius: 5px;
+}
 
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.next {
+  background-color: #04AA6D;
+  color: white;
+}
+
+
+</style>
+
+
+<div class="page">
+  {% assign pages = site.pages | sort: "weight" %}
+
+  {% for p in pages %}
+    {% if p.url == page.url %}
+      {% assign current_page_index = forloop.index %}
+      {% assign total_pages = pages | size %}
+      {% assign previous_page_index = current_page_index | minus: 2 %}
+
+      {% if previous_page_index >= 0 %}
+        {% assign prev_page = pages[previous_page_index] %}
+        {% if prev_page.weight >= 0 %}
+          <a href="{{ prev_page.url }}" class="previous">&laquo; {{ prev_page.title }}</a>
+        {% endif %}
+      {% endif %}
+
+      {% assign next_page_index = current_page_index %}
+      
+      {% if next_page_index < total_pages %}
+        <a href="{{ pages[next_page_index].url }}" class="next">{{ pages[next_page_index].title }} &raquo;</a>
+      {% endif %}
+
+      <br><br>
+
+      <h1 class="page-title">{{ page.title }}</h1>
+      {{ content }}
+      <br>
+      {% if previous_page_index >= 0 %}
+        {% assign prev_page = pages[previous_page_index] %}
+        {% if prev_page.weight >= 0 %}
+          <a href="{{ prev_page.url }}" class="previous">&laquo; {{ prev_page.title }}</a>
+        {% endif %}
+      {% endif %}
+
+      {% if next_page_index < total_pages %}
+        <a href="{{ pages[next_page_index].url }}" class="next">{{ pages[next_page_index].title }} &raquo;</a>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+</div>
