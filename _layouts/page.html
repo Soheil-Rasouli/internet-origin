@@ -41,14 +41,14 @@ a:hover {
       {% if previous_page_index >= 0 %}
         {% assign prev_page = pages[previous_page_index] %}
         {% if prev_page.weight >= 0 %}
-          <a href="{{ site.baseurl }}{{ prev_page.url }}" class="previous">&laquo; {{ prev_page.title }}</a>
+          <a href="{{ prev_page.url | absolute_url }}" class="previous">&laquo; {{ prev_page.title }}</a>
         {% endif %}
       {% endif %}
 
       {% assign next_page_index = current_page_index %}
       
       {% if next_page_index < total_pages %}
-        <a href="{{ site.baseurl }}{{ pages[next_page_index].url }}" class="next">{{ pages[next_page_index].title }} &raquo;</a>
+        <a href="{{ pages[next_page_index].url | absolute_url}}" class="next">{{ pages[next_page_index].title }} &raquo;</a>
       {% endif %}
 
       <br><br>
@@ -59,12 +59,12 @@ a:hover {
       {% if previous_page_index >= 0 %}
         {% assign prev_page = pages[previous_page_index] %}
         {% if prev_page.weight >= 0 %}
-          <a href="{{ site.baseurl }}{{ prev_page.url }}" class="previous">&laquo; {{ prev_page.title }}</a>
+          <a href="{{ prev_page.url | absolute_url}}" class="previous">&laquo; {{ prev_page.title }}</a>
         {% endif %}
       {% endif %}
 
       {% if next_page_index < total_pages %}
-        <a href="{{ site.baseurl }}{{ pages[next_page_index].url }}" class="next">{{ pages[next_page_index].title }} &raquo;</a>
+        <a href="{{ pages[next_page_index].url | absolute_url}}" class="next">{{ pages[next_page_index].title }} &raquo;</a>
       {% endif %}
     {% endif %}
   {% endfor %}
